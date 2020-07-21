@@ -1,0 +1,16 @@
+
+- write all button
+
+- nominal voltage label
+
+- read ui to set basic bytes
+- save settings in json file
+- read settings from json file
+- help file open
+
+
+DONE
+
+- change load info button -> read all
+- hardware version, firmware version, max current -> string with dots or A
+- read basic_bytes into ui

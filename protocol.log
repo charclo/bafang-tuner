@@ -1,0 +1,76 @@
+INFO 2019-11-30 23:16:27,883 - # write received basic_bytes to logger
+INFO 2019-11-30 23:16:27,884 - b'R\x18\x1f\x0f\x00\x1c%.7@IR[ddddddddddd4\x01\xdf'
+INFO 2019-11-30 23:16:33,487 - # write received basic_bytes to logger
+INFO 2019-11-30 23:16:33,487 - b'R\x18\x1f\x0f\x00\x1c%.7@IR[ddddddddddd4\x01\xdf'
+INFO 2019-11-30 23:16:34,879 - # write received basic_bytes to logger
+INFO 2019-11-30 23:16:34,879 - b'R\x18\x1f\x0f\x00\x1c%.7@IR[ddddddddddd4\x01\xdf'
+INFO 2019-11-30 23:16:36,411 - # write received basic_bytes to logger
+INFO 2019-11-30 23:16:36,411 - b'R\x18\x1f\x0f\x00\x1c%.7@IR[ddddddddddd4\x01\xdf'
+INFO 2019-11-30 23:16:37,681 - # write received basic_bytes to logger
+INFO 2019-11-30 23:16:37,681 - b'R\x18\x1f\x0f\x00\x1c%.7@IR[ddddddddddd4\x01\xdf'
+INFO 2019-11-30 23:16:38,639 - # write received basic_bytes to logger
+INFO 2019-11-30 23:16:38,640 - b'R\x18\x1f\x0f\x00\x1c%.7@IR[ddddddddddd4\x01\xdf'
+INFO 2019-11-30 23:16:39,528 - # write received basic_bytes to logger
+INFO 2019-11-30 23:16:39,528 - b'R\x18\x1f\x0f\x00\x1c%.7@IR[ddddddddddd4\x01\xdf'
+INFO 2019-11-30 23:16:40,204 - # write received basic_bytes to logger
+INFO 2019-11-30 23:16:40,204 - b'R\x18\x1f\x0f\x00\x1c%.7@IR[ddddddddddd4\x01\xdf'
+INFO 2019-11-30 23:16:40,868 - # write received basic_bytes to logger
+INFO 2019-11-30 23:16:40,868 - b'R\x18\x1f\x0f\x00\x1c%.7@IR[ddddddddddd4\x01\xdf'
+INFO 2019-11-30 23:16:41,597 - # write received basic_bytes to logger
+INFO 2019-11-30 23:16:41,597 - b'R\x18\x1f\x0f\x00\x1c%.7@IR[ddddddddddd4\x01\xdf'
+DEBUG 2019-11-30 23:17:28,311 - # write received basic_bytes to logger
+DEBUG 2019-11-30 23:17:28,311 - b'R\x18\x1f\x0f\x00\x1c%.7@IR[ddddddddddd4\x01\xdf'
+DEBUG 2019-11-30 23:17:31,298 - # write received basic_bytes to logger
+DEBUG 2019-11-30 23:17:31,298 - b''
+DEBUG 2019-11-30 23:17:32,368 - # write received basic_bytes to logger
+DEBUG 2019-11-30 23:17:32,368 - b''
+DEBUG 2019-11-30 23:17:37,328 - # write received basic_bytes to logger
+DEBUG 2019-11-30 23:17:37,328 - b''
+DEBUG 2019-11-30 23:17:39,016 - # write received basic_bytes to logger
+DEBUG 2019-11-30 23:17:39,016 - b''
+DEBUG 2019-11-30 23:17:41,987 - # write received basic_bytes to logger
+DEBUG 2019-11-30 23:17:41,987 - b''
+DEBUG 2019-11-30 23:17:42,993 - # write received basic_bytes to logger
+DEBUG 2019-11-30 23:17:42,993 - b''
+DEBUG 2019-11-30 23:17:43,998 - # write received basic_bytes to logger
+DEBUG 2019-11-30 23:17:43,998 - b''
+DEBUG 2019-11-30 23:17:45,473 - # write received basic_bytes to logger
+DEBUG 2019-11-30 23:17:45,474 - b''
+DEBUG 2019-11-30 23:17:46,481 - # write received basic_bytes to logger
+DEBUG 2019-11-30 23:17:46,481 - b''
+DEBUG 2019-11-30 23:17:47,487 - # write received basic_bytes to logger
+DEBUG 2019-11-30 23:17:47,487 - b''
+DEBUG 2019-11-30 23:17:48,504 - # write received basic_bytes to logger
+DEBUG 2019-11-30 23:17:48,505 - b''
+DEBUG 2019-11-30 23:17:51,403 - # write received basic_bytes to logger
+DEBUG 2019-11-30 23:17:51,403 - b''
+DEBUG 2019-11-30 23:18:35,693 - # write received basic_bytes to logger
+DEBUG 2019-11-30 23:18:35,693 - b'R\x18\x1f\x0f\x00\x1c%.7@IR[ddddddddddd4\x01\xdf'
+DEBUG 2019-11-30 23:18:44,990 - # write received basic_bytes to logger
+DEBUG 2019-11-30 23:18:44,990 - b''
+DEBUG 2019-11-30 23:18:51,831 - # write received basic_bytes to logger
+DEBUG 2019-11-30 23:18:51,831 - b''
+DEBUG 2019-11-30 23:20:23,809 - # write received basic_bytes to logger
+DEBUG 2019-11-30 23:20:23,809 - b'R\x18\x1f\x0f\x00\x1c%.7@IR[ddddddddddd4\x01\xdf'
+DEBUG 2019-11-30 23:20:25,103 - # write received basic_bytes to logger
+DEBUG 2019-11-30 23:20:25,104 - b'R\x18\x1f\x0f\x00\x1c%.7@IR[ddddddddddd4\x01\xdf'
+DEBUG 2019-11-30 23:20:26,353 - # write received basic_bytes to logger
+DEBUG 2019-11-30 23:20:26,353 - b'R\x18\x1f\x0f\x00\x1c%.7@IR[ddddddddddd4\x01\xdf'
+DEBUG 2019-11-30 23:20:29,998 - # write received basic_bytes to logger
+DEBUG 2019-11-30 23:20:29,998 - b'R\x18\x1f\x0f\x00\x1c%.7@IR[ddddddddddd4\x01\xdf'
+DEBUG 2019-11-30 23:20:31,350 - # write received basic_bytes to logger
+DEBUG 2019-11-30 23:20:31,350 - b'R\x18\x1f\x0f\x00\x1c%.7@IR[ddddddddddd4\x01\xdf'
+DEBUG 2019-11-30 23:20:32,239 - # write received basic_bytes to logger
+DEBUG 2019-11-30 23:20:32,239 - b'R\x18\x1f\x0f\x00\x1c%.7@IR[ddddddddddd4\x01\xdf'
+DEBUG 2019-11-30 23:20:34,823 - # write received basic_bytes to logger
+DEBUG 2019-11-30 23:20:34,823 - b'R\x18\x1f\x0f\x00\x1c%.7@IR[ddddddddddd4\x01\xdf'
+DEBUG 2019-11-30 23:20:35,827 - # write received basic_bytes to logger
+DEBUG 2019-11-30 23:20:35,827 - b'R\x18\x1f\x0f\x00\x1c%.7@IR[ddddddddddd4\x01\xdf'
+DEBUG 2019-11-30 23:20:36,703 - # write received basic_bytes to logger
+DEBUG 2019-11-30 23:20:36,703 - b'R\x18\x1f\x0f\x00\x1c%.7@IR[ddddddddddd4\x01\xdf'
+DEBUG 2019-11-30 23:31:03,360 - # write received basic_bytes to logger
+DEBUG 2019-11-30 23:31:03,365 - b'R\x18\x1f\x0f\x00\x1c%.7@IR[ddddddddddd4\x01\xdf'
+DEBUG 2019-11-30 23:36:05,271 - # write received basic_bytes to logger
+DEBUG 2019-11-30 23:36:05,276 - b'R\x18\x1f\x0f\x00\x1c%.7@IR[ddddddddddd4\x01\xdf'
+DEBUG 2019-11-30 23:36:07,409 - # write received basic_bytes to logger
+DEBUG 2019-11-30 23:36:07,410 - b'R\x18\x1f\x0f\x00\x1c%.7@IR[ddddddddddd4\x01\xdf'
