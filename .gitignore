@@ -1,0 +1,6 @@
+bafang_simulator/build
+.vscode
+.pylintrc
+backup.json
+bafang_simulator/.vscode
+__pycache__

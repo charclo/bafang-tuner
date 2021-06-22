@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>SchemaPA.JPG</file>
+  </qresource>
+</RCC>
