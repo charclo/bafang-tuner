@@ -11,7 +11,7 @@ class Protocol():
         self.basic_read_cmd = b"\x11\x52"
         self.pedal_read_cmd = b"\x11\x53"
         self.throttle_read_cmd = b"\x11\x54"
-        self.basic_write_cmd = [0x16, 0x52, 0x24]
+        self.basic_write_cmd = [0x16, 0x52] #, 0x24]
 
     
     def connect(self, serial_port):
@@ -59,13 +59,19 @@ class Protocol():
                         baf.limited_speed_assist9,
                         baf.wheel_diameter,
                         baf.speedmeter_signals,
-                        baf.speedmeter_model,]
+                        baf.speedmeter_model]
         basic_packet = self.basic_write_cmd + basic_packet
         logger.debug("basic packet is:")
         logger.debug(basic_packet)
         bytes_written = self.serial_port.write(basic_packet)
         logger.debug("bytes written:")
         logger.debug(bytes_written)
+        response_length = self.serial_port.in_waiting
+        logger.debug("response length:")
+        logger.debug(response_length)
+        response = self.serial_port.read(response_length)
+        logger.debug("response:")
+        logger.debug(response)
 
 
         
