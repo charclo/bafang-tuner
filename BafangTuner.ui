@@ -1045,6 +1045,9 @@
            <bold>false</bold>
           </font>
          </property>
+         <property name="toolTip">
+          <string>This is the voltage at which the controller will stop the motor to keep your battery safe from over-discharge. It should be set by the manufacturer properly and you don’t need to change it. For 13S battery packs 41V is the default.</string>
+         </property>
          <property name="locale">
           <locale language="English" country="UnitedKingdom"/>
          </property>

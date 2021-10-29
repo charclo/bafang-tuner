@@ -3,7 +3,7 @@
 # Form implementation generated from reading ui file 'BafangTuner.ui',
 # licensing of 'BafangTuner.ui' applies.
 #
-# Created: Tue Jun 22 15:23:14 2021
+# Created: Tue Jun 22 15:31:38 2021
 #      by: pyside2-uic  running on PySide2 5.13.2
 #
 # WARNING! All changes made in this file will be lost!
@@ -983,6 +983,7 @@ class Ui_MainWindow(object):
         self.comboBoxPorts_2.setItemText(0, QtWidgets.QApplication.translate("MainWindow", "External, wheel meter", None, -1))
         self.comboBoxPorts_2.setItemText(1, QtWidgets.QApplication.translate("MainWindow", "Internal, motor meter", None, -1))
         self.comboBoxPorts_2.setItemText(2, QtWidgets.QApplication.translate("MainWindow", "By motor phase", None, -1))
+        self.label.setToolTip(QtWidgets.QApplication.translate("MainWindow", "This is the voltage at which the controller will stop the motor to keep your battery safe from over-discharge. It should be set by the manufacturer properly and you donÔÇÖt need to change it. For 13S battery packs 41V is the default.", None, -1))
         self.label.setText(QtWidgets.QApplication.translate("MainWindow", "Low Battery Protection (V):", None, -1))
         self.label_2.setText(QtWidgets.QApplication.translate("MainWindow", "Current Limit (A):", None, -1))
         self.tabWidget.setTabText(self.tabWidget.indexOf(self.tabBasic), QtWidgets.QApplication.translate("MainWindow", "Basic", None, -1))
@@ -1048,5 +1049,3 @@ class Ui_MainWindow(object):
         self.actionExit.setText(QtWidgets.QApplication.translate("MainWindow", "Exit", None, -1))
         self.actionHelp.setText(QtWidgets.QApplication.translate("MainWindow", "Help", None, -1))
         self.actionAbout.setText(QtWidgets.QApplication.translate("MainWindow", "About", None, -1))
-
-#import background_rc

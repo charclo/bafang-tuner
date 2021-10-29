@@ -46,6 +46,18 @@ class Bafang:
         self.speedmeter_model = 1
 
         #pedal
+        self.pedal_type = 0
+        self.assist_level = 0
+        self.speed_limit = 0
+        self.start_current = 0
+        self.slow_start_mode = 0
+        self.startup_degree = 0
+        self.work_mode = 0
+        self.stop_delay = 0
+        self.current_decay = 0
+        self.stop_decay = 0
+        self.keep_current = 0
+
 
     def set_info(self, info_bytes: bytes):
         """set the info paramaters of bafang"""
@@ -90,10 +102,54 @@ class Bafang:
         for attr, value in basic_dict.items():
             setattr(self, attr, value)
 
+        ### Response (description):
+        """ 00: 0x53 
+        * 01: 0x0B (Length?)
+        * 02: Pedal Type (0x03)
+            * 0x00: None
+            * 0x01: DH-Sensor-12
+            * 0x02: BB-Sensor-32
+            * 0x03: DoubleSignal-24
+        * 03: Designated Assist (FF)
+            * 0x00-0x09: Assist Mode No.
+            * 0xFF: By Display's Command
+        * 04: Speed Limit (FF)
+            * 0x0F-0x28: Speed Limit in km/h
+            * 0xFF: By Display's Command
+        * 05: Start current in % (0x64 -> 100)
+            * 0x00-0x64
+        * 06: Slow-Start Mode (06 -> 6)
+            * 0x01-0x08: Mode Number
+        * 07: Startup Degree (Signal No.) (0x14 -> 20)
+            * Integer: Number of Signal before start
+        * 08: Work Mode (0x0A -> 10)
+            * 0x0A-0x50: Angular Speed of pedal/wheel*10
+            * 0xFF: Undetermined
+        * 09: Time of Stop (0x19 -> 25)
+            * Integer: *10ms
+        * 10: Current Decay (0x08 -> 8)
+            * 0x01-0x08: Current Decay 
+        * 11: Stop Decay (0x14 -> 20)
+            * Integer: *10ms
+        * 12: Keep Current in % (0x14 -> 20)
+        * 13: Checksum ? (0x27)*/ """
+
     def set_pedal(self, pedal_data: bytes):
         """set the pedal parameters of bafang"""
         logger.debug("pedal data is:")
         logger.debug(pedal_data)
+        self.pedal_type = pedal_data[2]
+        self.assist_level = pedal_data[3]
+        self.speed_limit = pedal_data[4]
+        self.start_current = pedal_data[5]
+        self.slow_start_mode = pedal_data[6]
+        self.startup_degree = pedal_data[7]
+        self.work_mode = pedal_data[8]
+        self.stop_delay = pedal_data[9]
+        self.current_decay = pedal_data[10]
+        self.stop_decay = pedal_data[11]
+        self.keep_current = pedal_data[12]
+
 
 
     def get_key(self, val): 
